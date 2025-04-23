@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@git.kaiostech.com/feature-phone-apps/" name="feature-phone"/>
+  <remote fetch="ssh://git@git.kaiostech.com/KaiOS/" name="kaios"/>
+  
+  <project dest-branch="SFP_3.0.0" groups="app" name="gaia" remote="kaios" revision="7bd2aa164c8c8caf86e11c2dbe8f474dcc9de478" upstream="SFP_3.0.0"/>
+  <project dest-branch="v3.0" groups="kai" name="gecko-dev" path="gecko" remote="kaios" revision="5ada51cfa652eb1ac76a26494a30dee1b9df2ab0" upstream="v3.0"/>
+  <project dest-branch="v3.0" groups="app" name="keyboard" path="gaia/apps/keyboard" remote="feature-phone" revision="389f252144874fcf59abf788fc37060bb36c34dd" upstream="v3.0"/>
+  <project dest-branch="v3.0" groups="kai" name="koost" path="gecko/koost" remote="kaios" revision="1b294a2d298043267800a109ec0764ab582e90e0" upstream="v3.0"/>
+  <project dest-branch="v3.0" groups="app" name="launcher" path="gaia/apps/launcher" remote="feature-phone" revision="3d89b59ec6266ea88846105d590678a45a5d8ed4" upstream="v3.0"/>
+  <project dest-branch="next-sfp" groups="app,gaia-ci,app-ci" name="locales" path="gaia/locales" remote="kaios" revision="aacac7056d4047779e448fe54e831b566a00c3dd" upstream="next-sfp"/>
+  <project dest-branch="master" groups="kai" name="moztt" path="external/moztt" remote="kaios" revision="c9898665ea0bbecbf8dff0a2b49da06e6f2a57fe" upstream="master"/>
+  <project dest-branch="v3.0" groups="app" name="settings" path="gaia/apps/settings" remote="feature-phone" revision="e75ba93aa45a4a2e4992d7e9b3b76204f142f005" upstream="v3.0"/>
+  <project dest-branch="v3.0" groups="app" name="shared" path="gaia/apps/shared" remote="feature-phone" revision="b0acd90c100897443df5db3b29e905c1c9e2f1f3" upstream="v3.0"/>
+  <project dest-branch="v3.0" groups="app" name="sidl" remote="kaios" revision="3e4f2f6fa796f291ee603c981977dbaa9a3ee057" upstream="v3.0"/>
+  <project dest-branch="v3.0" groups="app" name="system" path="gaia/apps/system" remote="feature-phone" revision="1d72a9750db0f38d9a473e1dcacea1a16a773e16" upstream="v3.0"/>
+</manifest>
